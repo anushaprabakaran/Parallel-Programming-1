@@ -3,9 +3,6 @@
 * so they are parallelzied.
 * Added additional extern function computeDistanceBetweenCities
 * for calculating the distance between cities.
-*
-* Name : Anusha Prabakaran
-* Student ID : 1470730
 */
 
 
