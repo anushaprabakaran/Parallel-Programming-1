@@ -1,7 +1,3 @@
-// Project:      CSS432 UDP Socket Class
-// Professor:    Munehiro Fukuda
-// Organization: CSS, University of Washington, Bothell
-// Date:         March 5, 2004
 
 #ifndef _TIMER_H_
 #define _TIMER_H_
