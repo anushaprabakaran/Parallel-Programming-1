@@ -2,8 +2,6 @@
 * Implementaion of evaluate(), crossover() and mutate() along with
 * helper functions and parallelized them with OpenMP
 *
-* Name : Anusha Prabakaran
-* Student ID : 1470730
 */
 
 
@@ -197,10 +195,10 @@ void evaluate(Trip trip[CHROMOSOMES], int coordinates[CITIES][2]) {
 /*
 * Generates 25,000 offsprings from the parents. It selects the first city of 
 * parent1, compares the cities leaving that city in parent_1 and parent_2, and 
-* chooses the closer one to extend child_1’s trip.
+* chooses the closer one to extend child_1â€™s trip.
 * If one city has already appeared in the trip, we choose the other city.
 * If both cities have already appeared, we randomly select a non-selected city.
-* Generate child_2’s trip as a complement of child1.
+* Generate child_2â€™s trip as a complement of child1.
 *
 * @param parents[TOP_X]: top 50% of trips to be crossed over to form children
 * @param offsprings[TOP_X]: children formed by crossing over the parents 
